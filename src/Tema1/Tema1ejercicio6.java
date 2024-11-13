@@ -9,7 +9,7 @@ public class Tema1ejercicio6 {
         System.out.print("Ingrese el valor del radio: ");
         double r = scanner.nextDouble();
 
-        //calc area con nuemro pi
+        //calc area con nuemero pi
         double area = 3.14 * r * r;
         System.out.println("El área del círculo es Pi*r*r= " + area);
 
