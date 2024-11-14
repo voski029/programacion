@@ -17,6 +17,8 @@ public class Tema2ejercicio30 {
             System.out.print("introduce otro numero:");
             num2 = input.nextDouble();
 
+            //cambia todos estos if, por switch
+            /*
             if (operacion.equals("+")) {
                 resultado = num1 + num2;
                 System.out.println("resultado: " + resultado);
@@ -43,7 +45,7 @@ public class Tema2ejercicio30 {
             } else {
                 System.out.println("operación no válida.");
             }
-
+*/
             System.out.print("¿otra operacion?(si/n0): ");
             String respuesta = input.next();
 

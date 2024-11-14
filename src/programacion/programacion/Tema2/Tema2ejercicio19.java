@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Tema2ejercicio19 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
+// no debes pedir nada por teclado. Mostrar pares del 1 al 1000
         int numeropar = input.nextInt();
         do {
             System.out.println("Escribe un numero entre 1 y 1000");

@@ -19,9 +19,11 @@ public class Tema2ejercicio20 {
 
         if (B>A){
             System.out.println("Los numeros impares entre" +A+ "y" +B+ "son:");
-           for ( numero=A+1;numero <B;numero++);
-           if(numero%2!=0);
-           System.out.println("impares" +numero);
+           for ( numero=A+1;numero <B;numero++) {
+               if (numero % 2 != 0) {
+                   System.out.println("impares" + numero);
+               }
+           }
         }else{
             System.out.println("B no es mayor,fin del programa");
         }
